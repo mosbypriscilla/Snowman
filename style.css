@@ -1,0 +1,90 @@
+:root {
+    --snowmanBody: #FFF;
+    --snowmanEyes: rgb(24, 24, 24);
+} 
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(184, 227, 255);
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+
+#snowman {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+}
+
+.head {
+    background-color: var(--snowmanBody);
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    position: inherit;
+    top: 80px;
+    display: block;
+}
+
+.leftEye {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: var(--snowmanEyes);
+    position: inherit;
+    margin: 0 auto;
+    top: 56px;
+    right: 20px;
+}
+
+.rightEye {
+    width: 23px;
+    height: 23px;
+    border-radius: 50%;
+    background-color: var(--snowmanEyes);
+    position: inherit;
+    margin: 0 auto;
+    top: 33px;
+    left: 20px;
+
+}
+
+.mouth {
+    border: 6px solid var(--snowmanEyes);
+    position: inherit;
+    top: 60px;
+    margin: 0 auto;
+    width: 30px;
+    border-bottom-left-radius: 90%;
+    border-bottom-right-radius: 90%;
+    border-top-left-radius: 90%;
+    border-top-right-radius: 90%;
+    border-top-color: #FFF
+
+}
+
+.middle {
+    background-color: var(--snowmanBody);
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    position: inherit;
+    margin: 0 auto;
+    top: 50px;
+}
+
+.bottom {
+    background-color: var(--snowmanBody);
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    position: inherit;
+    margin: 0 auto;
+}
